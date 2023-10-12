@@ -3,54 +3,45 @@
     <v-container>
       <v-row no-gutters>
         <v-col cols="12" class="mb-10">
-          <h2>Quem somos</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            imperdiet interdum leo non ullamcorper. Cras tempor vitae ipsum et
-            facilisis.
-          </p>
+          <h2>Equipe</h2>
         </v-col>
         <div class="colunas">
           <div class="perfil">
-            <img src="@/assets/cirlce.svg" alt="Fulano de Tal" />
+            <img src="@/assets/antonio.png" alt="Antonio Gabriel" />
             <div>
               <h3>
-                <a href="#" target="_blank">Fulano de Tal</a>
+                <a href="#" target="_blank">Antonio Gabriel</a>
               </h3>
-              <p>Função Profissional da pessoa</p>
+              <p>Gestão do Projeto</p>
+              <p>Eng. Eletricista, mestre em eng. elétrica e MBA em Gestão de Projetos</p>
+              <p><small>DPE.P - Departamento de Projetos Eletromecânicos de Subestações e Equipamentos -Furnas</small></p>
             </div>
           </div>
           <div class="perfil left">
-            <img src="@/assets/cirlce.svg" alt="Fulano de Tal" />
+            <img src="@/assets/christhian.png" alt="Christhian Fonseca" />
             <div>
               <h3>
-                <a href="#" target="_blank">Fulano de Tal</a>
+                <a href="#" target="_blank">Christhian Fonseca</a>
               </h3>
-              <p>Função Profissional da pessoa</p>
+              <p>Gestão da Tecnologia</p>
+              <p>Eng. Eletricista, mestre em Eng. da Computação, Desenvolvedor A</p>
+              <p><small>CTRS.O - Centro de Operações Regional São Paulo - Furnas</small></p>
             </div>
           </div>
           <div class="perfil">
-            <img src="@/assets/cirlce.svg" alt="Fulano de Tal" />
+            <img src="@/assets/thiago.png" alt="Thiago Jayme" />
             <div>
               <h3>
-                <a href="#" target="_blank">Fulano de Tal</a>
+                <a href="#" target="_blank">Thiago Jayme</a>
               </h3>
-              <p>Função Profissional da pessoa</p>
-            </div>
-          </div>
-          <div class="perfil left">
-            <img src="@/assets/cirlce.svg" alt="Fulano de Tal" />
-            <div>
-              <h3>
-                <a href="#" target="_blank">Fulano de Tal</a>
-              </h3>
-              <p>Função Profissional da pessoa</p>
+              <p>Gestão do Negócio</p>
+              <p>Eng. Eletricista, Software, Seg. do Trabalho, MBA Gerenciamento de Projetos</p>
+              <p><small>DRB.O - Departamento de Produção Brasília - Furnas</small></p>
             </div>
           </div>
         </div>
       </v-row>
     </v-container>
-    <div class="copy">© Smart Equipament - Todos os direitos reservados</div>
   </div>
 </template>
 
@@ -65,7 +56,7 @@ export default {
   padding: 64px 0 32px 0;
   background: #fff;
   .row {
-    max-width: 768px;
+    max-width: 900px;
     margin: 0 auto;
   }
   h2 {
@@ -89,7 +80,7 @@ export default {
   }
   .colunas {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     gap: 32px;
     width: 100%;
@@ -97,7 +88,6 @@ export default {
     @media screen and (max-width: 768px) {
       display: flex;
       flex-direction: column;
-      gap: 0px;
     }
     .perfil {
       display: flex;
@@ -153,18 +143,6 @@ export default {
         text-align: right;
       }
     }
-  }
-  .copy {
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #000;
-    @media screen and (max-width: 768px) {
-      font-size: 12px;
-    }
-    padding-top: 32px;
-    border-top: 1px solid #000;
   }
 }
 </style>

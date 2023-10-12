@@ -3,17 +3,21 @@
     <img src="@/assets/logo.svg" alt="" width="151" height="82" />
     <div class="text-box">
       <h1>
-        Apresentamos o Futuro da Identificação de Equipamentos com Realidade
-        Aumentada
+        Vamos aprimorar a forma como interagimos com os equipamentos de
+        subestações e usinas?
       </h1>
       <h2>
-        Smart Equipment é uma solução em realidade 'híbrida' (ou aumentada) para
-        identificação tridimensional de equipamentos industriais na localidade.
+        Nossa solução permite a visualização e interação de informações
+        relevantes sobre os equipamentos no espaço tridimensional, através de um
+        aplicativo para dispositivos móveis (Smartphones, Tablets, Óculos AR)
+        que faz uso da tecnologia de realidade aumentada, fornecendo aos
+        usuários uma experiência imersiva, contribuindo com a segurança e maior
+        eficiência operacional.
       </h2>
     </div>
     <a
       class="white--text px-10 v-btn v-btn--is-elevated v-btn--has-bg v-btn--rounded theme--light v-size--x-large button"
-      href="#video"
+      href="#sobre"
       v-smooth-scroll="{ duration: 1000, updateHistory: false, offset: 0 }"
       >Saiba Mais</a
     >
@@ -48,17 +52,19 @@ export default {
     max-width: 600px;
     margin: 0 auto;
     color: #fff;
-    margin-bottom: 96px;
+    margin-bottom: 64px;
     h1 {
       text-align: center;
-      text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
-      font-size: 20px;
+      font-size: 30px;
       font-style: normal;
       font-weight: 900;
       line-height: normal;
       letter-spacing: 1.25px;
       text-transform: uppercase;
       margin-bottom: 16px;
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+    }
     }
     h2 {
       color: #000;
@@ -66,7 +72,7 @@ export default {
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
-      line-height: normal;
+      line-height: 1.4;
       letter-spacing: 1.25px;
     }
   }

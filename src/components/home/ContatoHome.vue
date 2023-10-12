@@ -48,6 +48,7 @@
         >
       </v-row>
     </div>
+    <div class="copy">© Smart Equipament - Todos os direitos reservados</div>
   </div>
 </template>
 
@@ -114,7 +115,7 @@ export default {
   .row {
     position: relative;
     padding-bottom: 16px;
-    max-width: 768px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 16px;
   }
@@ -140,6 +141,19 @@ export default {
   .enviar {
     display: flex;
     margin: 0 auto;
+  }
+  .copy {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
+    }
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid rgb(118, 118, 118);
   }
 }
 </style>

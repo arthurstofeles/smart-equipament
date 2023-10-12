@@ -1,12 +1,12 @@
 <template>
-  <div class="video">
+  <div class="video" id="sobre">
     <div>
-      <h2>Testes Protótipo</h2>
+      <h2>Sobre a Solução</h2>
       <div class="video-container">
         <iframe
           width="768"
           height="415"
-          src="https://www.youtube.com/embed/4QJNCq75NAo?si=V41y4WkzGSWKSiR"
+          src="https://www.youtube.com/embed/-AR02WKjZ_g?si=sixrpei0STUnzNRb"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -19,21 +19,20 @@
 
 <script>
 export default {
-  name: "VideoHome",
+  name: "SobreVideoHome",
 };
 </script>
 
 <style lang="scss" scoped>
 .video {
-  background-color: #000;
+  background-color: #05EC7F;
   padding: 32px 16px;
   div {
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
     h2 {
-      color: #fff;
-      text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+      color: #000;
       font-size: 20px;
       font-style: normal;
       font-weight: 900;
