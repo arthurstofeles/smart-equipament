@@ -48,7 +48,12 @@
         >
       </v-row>
     </div>
-    <div class="copy">© Smart Equipament - Todos os direitos reservados</div>
+    <div class="copy">
+      <p>© Smart Equipament - Todos os direitos reservados</p>
+      <div>
+        <small>Uma startup da</small> <img src="@/assets/eletrobras.svg" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -148,6 +153,18 @@ export default {
     font-size: 16px;
     line-height: 1.4;
     color: #000;
+    div {
+      display: flex;
+      align-items: flex-end;
+      gap: 16px;
+      justify-content: center;
+      small {
+        font-style: italic;
+      }
+      img {
+        max-width: 150px;
+      }
+    }
     @media screen and (max-width: 768px) {
       font-size: 12px;
     }
