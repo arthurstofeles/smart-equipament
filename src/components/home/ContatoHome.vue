@@ -15,25 +15,28 @@
               label="Nome"
               required
               :rules="genericRules"
-              color="black"
+              color="#0ad9ff"
               placeholder="Insira seu nome aqui"
+              dark
             ></v-text-field>
             <v-text-field
               v-model="formData.email"
               label="E-mail"
               required
               :rules="emailRules"
-              color="black"
+              color="#0ad9ff"
               placeholder="Insira seu e-mail"
+              dark
             ></v-text-field>
             <v-text-field
               v-model="formData.phone"
               label="Telefone"
               required
               :rules="genericRules"
-              color="black"
+              color="#0ad9ff"
               placeholder="(xx) xxxxx-xxxx"
               v-mask="'(##) #####-####'"
+              dark
             ></v-text-field>
           </v-form>
         </v-col>
@@ -51,7 +54,7 @@
     <div class="copy">
       <p>© Smart Equipament - Todos os direitos reservados</p>
       <div>
-        <small>Uma startup da</small> <img src="@/assets/eletrobras.svg" />
+        <img src="@/assets/olimpiada.png" /> <img src="@/assets/eletrobras.svg" />
       </div>
     </div>
   </div>
@@ -114,7 +117,7 @@ export default {
 
 <style lang="scss" scoped>
 .contato {
-  background: #c3f6ff;
+  background: #000;
   padding-top: 64px;
   padding-bottom: 64px;
   .row {
@@ -138,7 +141,7 @@ export default {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
-    color: #000;
+    color: #fff;
     @media screen and (max-width: 768px) {
       font-size: 12px;
     }
@@ -152,10 +155,10 @@ export default {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
-    color: #000;
+    color: #fff;
     div {
       display: flex;
-      align-items: flex-end;
+      align-items: center;
       gap: 16px;
       justify-content: center;
       small {

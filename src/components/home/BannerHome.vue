@@ -32,15 +32,11 @@ export default {
 
 <style lang="scss" scoped>
 .banner {
-  background: url("../../assets/padrao.png"),
-    linear-gradient(0deg, #0ad9ff -6.42%, #80ff80 102.74%);
+  background: url("../../assets/padrao.png");
   background-position: bottom center;
   background-repeat: repeat-x;
-
-  // height: 500px;
   text-align: center;
-  padding: 16px;
-  padding-top: 0px;
+  padding: 0px 16px;
   img {
     height: 100px;
     padding: 4px 16px;
@@ -51,7 +47,7 @@ export default {
   .text-box {
     max-width: 600px;
     margin: 0 auto;
-    color: #fff;
+    color: #000;
     margin-bottom: 64px;
     h1 {
       text-align: center;
@@ -79,7 +75,7 @@ export default {
   .button {
     color: #fff;
     background: linear-gradient(0deg, #000 26.83%, #80ff80 115.08%);
-
+    margin-bottom: 32px;
     /* Elevation 02 dp */
     box-shadow: 0px 3px 1px 2px rgba(0, 0, 0, 0.2),
       0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
