@@ -1,7 +1,7 @@
 <template>
   <div>
     <BannerHome />
-    <FuncionalidadesHome />
+    <FuncionalidadesHome id="funcionalidade" />
     <VideoHome />
     <SobreVideoHome />
     <QuemSomosHome />

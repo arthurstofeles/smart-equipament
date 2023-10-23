@@ -17,7 +17,7 @@
     </div>
     <a
       class="white--text px-10 v-btn v-btn--is-elevated v-btn--has-bg v-btn--rounded theme--light v-size--x-large button"
-      href="#sobre"
+      href="#funcionalidade"
       v-smooth-scroll="{ duration: 1000, updateHistory: false, offset: 0 }"
       >Saiba Mais</a
     >
@@ -37,6 +37,11 @@ export default {
   background-repeat: repeat-x;
   text-align: center;
   padding: 0px 16px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   img {
     height: 100px;
     margin: 20px;
