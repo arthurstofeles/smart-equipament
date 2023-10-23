@@ -39,8 +39,7 @@ export default {
   padding: 0px 16px;
   img {
     height: 100px;
-    padding: 4px 16px;
-    margin-bottom: 16px;
+    margin: 20px;
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
   }
@@ -59,7 +58,7 @@ export default {
       text-transform: uppercase;
       margin-bottom: 16px;
     @media screen and (max-width: 768px) {
-      font-size: 20px;
+      font-size: 16px;
     }
     }
     h2 {

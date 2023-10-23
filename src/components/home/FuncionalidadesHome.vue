@@ -2,6 +2,7 @@
   <div class="funcionalidades">
     <div>
       <h2>Funcionalidades</h2>
+      <img src="@/assets/funcionamento.jpeg" alt="" srcset="">
       <div class="func-container">
         <div>
           <v-icon x-large color="black"> mdi-check-circle-outline </v-icon>
@@ -62,6 +63,10 @@ export default {
       letter-spacing: 1.25px;
       text-transform: uppercase;
       margin-bottom: 16px;
+    }
+    img {
+      width: 100%;
+      border-radius: 4px;
     }
     .func-container {
       display: grid;
